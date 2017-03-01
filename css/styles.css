@@ -4,7 +4,8 @@
 }*/
 
 body{
-  background: url(../img/bg.jpg) no-repeat center center fixed;
+  /*background: url(../img/bg.jpg) no-repeat center center fixed;*/
+  background-color: #25383C;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +15,7 @@ body{
 .name{
 	color: #fff;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 100px;
 	font-family: 'Mr De Haviland', cursive;
 }
 
