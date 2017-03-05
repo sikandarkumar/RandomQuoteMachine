@@ -11,6 +11,10 @@ function randomQuote() {
            auth=response.quoteAuthor;
         // $('#tweet').attr("href", "http://twitter.com/home/?status=" + response.quoteText +
         //     ' (' + response.quoteAuthor + ')');
+
+        var backgroundColors=['#2C3539','#25383C','#98AFC7','#151B54','1F45FC','#254117','#493D26','#E55451','#25383C'];
+        var random=Math.floor(Math.random()*backgroundColors.length-1);
+        $('body').css("background-color",backgroundColors[random]);
       }
   });
 }
@@ -21,6 +25,7 @@ $(function() {
 
 $("#get-another-quote-button").click(function(){
   randomQuote();
+  // changeBackground();
 });
 
 $("#tweet").on("click", function() {
@@ -29,4 +34,11 @@ $("#tweet").on("click", function() {
 
 //Changing the background randomly will go here
 
-var backgroundColors=["#2C3539","#25383C","#98AFC7","#151B54","#1F45FC","#254117","#493D26","#E55451"];
+// var backgroundColors=[2C3539,25383C,98AFC7,151B54,1F45FC,254117,493D26,E55451,25383C];
+ // var backgroundColors=['#2C3539','#25383C','#98AFC7','#151B54','1F45FC','#254117','#493D26','#E55451','#25383C'];
+// function changeBackground(){
+//   var random=Math.floor(Math.random()*backgroundColors.length);
+  
+//   $('body').css("background-color",backgroundColors[random]);
+// }
+

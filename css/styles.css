@@ -5,7 +5,7 @@
 
 body{
   /*background: url(../img/bg.jpg) no-repeat center center fixed;*/
-  background-color: #25383C;
+  /*background-color: #25383C;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,3 +36,4 @@ body{
 .myButtons{
   padding-top: 20px;
 }
+
